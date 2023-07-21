@@ -119,7 +119,7 @@ header, .navbar {
 .main-title{
     text-align: center;
     color: #444;
-    margin: 30px 0 80px 0;
+    margin: 30px 0 50px 0;
     font-size: 40px;
     
 }
@@ -162,6 +162,33 @@ header, .navbar {
 #about-text{ 
     text-align: justify;
 }
+
+
+/* Serviços */
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4{
+    transition: .5s;
+}
+
+.service-box i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4{
+    color: #f2cd00;
+}
+
 
 
 
